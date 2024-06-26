@@ -6,7 +6,7 @@ try:
   # Improved map generation with potential customization
   map = prettymaps.plot( 'Delhi, India',  # Location to center the map
       style='stamen.terrain',  # Optional: Choose a map style (see prettymaps docs)
-      zoom=13  # Optional: Set zoom level for closer view (1-18)
+      # Optional: Set zoom level for closer view (1-18)
   )
   st.pyplot(map)  # Display the map
 
