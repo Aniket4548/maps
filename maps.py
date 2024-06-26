@@ -1,7 +1,8 @@
 import streamlit as st
 import prettymaps
 
-# Error handling for a more robust app
+st.write('This code is working')
+
 try:
   # Improved map generation with potential customization
   map = prettymaps.plot( 'Delhi, India',  # Location to center the map
@@ -10,7 +11,4 @@ try:
 
 except Exception as e:
   st.error(f"Error generating map: {e}")
-  st.info("Here are some tips for troubleshooting map generation:")
-  st.write("- Ensure you have a stable internet connection.")
-  st.write("- Verify that the `prettymaps` library is installed correctly.")
-  st.write("- Check for any errors or warnings in the console output.")
+  
