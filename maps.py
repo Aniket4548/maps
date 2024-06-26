@@ -1,7 +1,7 @@
 import streamlit as st
 import prettymaps
 
-plot = prettymaps.plot(
+st.pyplot(prettymaps.plot(
     'Praça Ferreira do Amaral, Macau',
     circle = True,
     radius = 1100,
@@ -95,3 +95,4 @@ plot = prettymaps.plot(
         }
     }
 )
+         )
