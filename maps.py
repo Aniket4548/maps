@@ -1,3 +1,4 @@
+import streamlit as st
 import prettymaps
 
-plot = prettymaps.plot('Stad van de Zon, Heerhugowaard, Netherlands')
+st.pyplot = prettymaps.plot('Stad van de Zon, Heerhugowaard, Netherlands')
