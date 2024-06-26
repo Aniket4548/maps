@@ -4,7 +4,7 @@ import prettymaps
 st.write('This code is working')
 
 try:
-    plot = prettymaps.plot('Delhi, India', preset='default')
-    st.pyplot(plot)
+    st.pyplot = prettymaps.plot('Delhi, India', preset='default')
+
 except Exception as e:
     st.error(f"Error generating map: {e}")
