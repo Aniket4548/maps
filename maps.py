@@ -3,7 +3,6 @@ import prettymaps
 
 
 st.pyplot = prettymaps.plot(
-    'Delhi, India',
-    preset = 'minimal'
+    'Delhi, India'
 )
 
